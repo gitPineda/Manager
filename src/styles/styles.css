@@ -1,0 +1,398 @@
+.abrir-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.animacion {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+.menu-iconos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .menu-icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .menu-icono:hover {
+    transform: scale(1.1);
+  }
+  
+  .icono {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .menu-icono h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-y: scroll;
+    height:100vh
+   
+  }
+  
+  .sidebar-imagen {
+    margin-right: 20px;
+  }
+  
+  .sidebar-imagen img {
+    max-width: 50px;
+    height: 50px;
+  }
+  
+  .sidebar-contenido {
+    flex: 1;
+  }
+  .menu-iconos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .categoria {
+    display: flex;
+    align-items: center;
+  }
+  
+  .categoria-imagen {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .menu-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .menu-icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .menu-icono:hover {
+    transform: scale(1.1);
+  }
+  
+  .icono {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .menu-icono h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .detalle-venta {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .productos-list {
+    margin-top: 20px;
+    background-color: #ffffff;
+  }
+  .line-division {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ 
+  }
+  
+  .col {
+    margin: 0 10px;
+   
+  }
+  
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  .link-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   
+  }
+  
+  .cardtop {
+    background-color: #b2b1b1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .cardtop:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardtop h2 {
+    margin-top: 0;
+  }
+  
+  .cardtop p {
+    margin-bottom: 10px;
+  }
+  
+  .cardtop button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cardtop button:hover {
+    background-color: #0056b3;
+  }
+
+  .card-img-top-sys {
+    width: 20%;
+    height: 20%;
+    
+   
+}
+.sale-items-grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black; /* Agrega un borde al contenedor */
+}
+
+.sale-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid red; /* Agrega un borde a cada fila */
+  padding: 10px; /* Agrega un poco de espacio interno para separar el contenido del borde */
+}
+
+.sale-item-info {
+  display: flex;
+  align-items: center;
+}
+
+.sale-item-info p {
+  margin-right: 10px;
+}
+
+.sale-item-actions button {
+  margin-left: 5px;
+}
+.tabla-responsiva {
+  overflow-x: auto;
+}
+
+.thead-fijo th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.encabezado-fijo th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.btn-rounded {
+  border-radius: 50%; /* Esto hace que el botón sea redondeado */
+  width: 60px; /* Ancho del botón */
+  height: 60px; /* Altura del botón */
+  border:none; /* Sin borde */
+  background-color:#fff;
+  color: rgb(18, 18, 18); /* Color del ícono (blanco en este caso) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px;
+  font-size: 24px
+}
+
+.btn-rounded:hover {
+  background-color: #8e9dad; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+
+
+.google-search-input {
+  width: calc(100% - 30px); /* El ancho del input menos el ancho del icono */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.google-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Estilo para el icono cuando se pasa el cursor sobre él */
+.google-search-icon:hover {
+  color: #4285f4;
+}
+.separator {
+  width: 2px; /* Ancho del separador */
+  height: 30px; /* Altura del separador, ajusta según sea necesario */
+  background-color: #ccc; /* Color del separador */
+  margin: 0 10px; /* Espacio entre los elementos */
+}
+.item{
+  height: 20rem;
+  min-width: 23rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra alrededor del div */
+  text-align: center; /* Centrar el contenido horizontalmente */
+  margin-right: 10px; /* Margen entre las imágenes */
+  flex: 0 0 auto;
+}
+.item img{
+  max-height: 50%; /* Ajustar la altura máxima para asegurar que la imagen no se desborde */
+  max-width: 50%; /* Ajustar el ancho máximo para asegurar que la imagen no se desborde */
+  pointer-events: none;
+}
+.slider{
+  display: flex;
+ 
+}
+.slider-container{
+  overflow-x: hidden;
+}
+  
+.modal {
+  z-index: 9999; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.custom-bg {
+  background-color:#4285f4; /* Reemplaza "yourcolor" con el color deseado */
+  /* Otros estilos */
+  border-radius: 10px;
+}
+.custom-nav {
+  background-color:#7f1f2e; /* Reemplaza "yourcolor" con el color deseado */
+  
+}
+.white-text{
+  color: white;
+}

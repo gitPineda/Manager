@@ -1,0 +1,36 @@
+.menu-iconos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .menu-icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .menu-icono:hover {
+    transform: scale(1.1);
+  }
+  
+  .icono {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .menu-icono h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
